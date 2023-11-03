@@ -1,5 +1,7 @@
 import * as React from 'react';
 import * as useQuery from '../../../src/hooks/useQuery';
+import * as useValidateId from '../../../src/screens/FormScreen/hooks/useValidateId';
+
 import {
   fireEvent,
   render,
@@ -95,6 +97,9 @@ describe('FormScreen', () => {
 const refetchTest = () => {
   const refetch = jest.fn();
 
+  jest.spyOn(useValidateId, 'useValidateId').mockReturnValue({
+    validateId: false,
+  });
   jest.spyOn(useQuery, 'useQuery').mockReturnValue({
     data: {data: 'test'},
     error: undefined,

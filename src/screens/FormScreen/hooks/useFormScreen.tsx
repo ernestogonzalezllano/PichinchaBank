@@ -1,8 +1,9 @@
-import {useEffect, useState} from 'react';
+import {useState} from 'react';
 import {FormGaps} from '../types';
 import {useQuery} from '../../../hooks/useQuery';
 import {validations} from '../utils';
 import {Product} from '../../../types/api';
+import {useValidateId} from './useValidateId';
 
 const defaultFormData = {
   id: undefined,
@@ -30,18 +31,7 @@ export const useFormScreen = ({
     options: {body: formData, method: product ? 'PUT' : 'POST'},
   });
 
-  const {data: validateId, refetch: validateIdRefetch} = useQuery<boolean>({
-    url: '/bp/products/verification',
-    refetchOnMount: false,
-    options: {params: {id: formData.id}, method: 'GET'},
-  });
-
-  useEffect(() => {
-    if (formData.id && !isEdit) {
-      validateIdRefetch();
-    }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [formData.id]);
+  const {validateId} = useValidateId({id: formData.id, isEdit});
 
   const handleSubmit = () => {
     const validate = validations(formData, validateId);

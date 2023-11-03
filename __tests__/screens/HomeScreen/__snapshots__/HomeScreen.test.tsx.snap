@@ -97,6 +97,7 @@ exports[`HomeScreen Should match with snapshot 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             {
+              "borderColor": "#eaecf3",
               "borderRadius": 5,
               "borderWidth": 1,
               "flexDirection": "row",
