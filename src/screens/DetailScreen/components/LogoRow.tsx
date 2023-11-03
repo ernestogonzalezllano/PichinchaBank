@@ -1,3 +1,4 @@
+import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
 
 export const LogoRow = ({gapName, value}: {gapName: string; value: string}) => {

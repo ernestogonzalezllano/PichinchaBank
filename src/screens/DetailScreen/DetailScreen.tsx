@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {DetailRow} from '../../components/DetailRow';
-import {LogoRow} from '../../components/LogoRow';
+import {DetailRow} from './components/DetailRow';
+import {LogoRow} from './components/LogoRow';
 import {ButtonTouchable} from '../../components/ButtonTouchable';
 import {GAPS} from '../../constants';
 import {isValidDateString} from '../../utils/validators';

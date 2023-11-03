@@ -1,10 +1,10 @@
 import React, {Suspense} from 'react';
 import {FlatList, StyleSheet, View} from 'react-native';
-import {CardList} from '../../components/CardList';
+import {CardList} from './components/CardList';
 import {ButtonTouchable} from '../../components/ButtonTouchable';
 
 import {Input} from '../../components/Input';
-import {EmptyProducts} from '../../components/EmptyProducts';
+import {EmptyProducts} from './components/EmptyProducts';
 import {HomeProps} from './types';
 import {SkeletonLoading} from './components/SkeletonLoading';
 import {useHomeScreen} from './hooks/useHomeScreen';
