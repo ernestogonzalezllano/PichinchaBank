@@ -1,8 +1,13 @@
 import React, {useEffect, useRef} from 'react';
 import {Animated, Easing, StyleSheet} from 'react-native';
-import {CardList} from './CardList';
 
-export const Skeleton = ({testID}: {testID?: string}) => {
+export const Skeleton = ({
+  testID,
+  RenderElement,
+}: {
+  testID?: string;
+  RenderElement: () => JSX.Element;
+}) => {
   const pulseAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
@@ -43,19 +48,7 @@ export const Skeleton = ({testID}: {testID?: string}) => {
       testID={testID}
       style={[styles.skeletonItem, {opacity: opacityAnim}]}>
       <Animated.View style={styles.skeletonDetails}>
-        <CardList
-          index={1}
-          handleOnPress={() => {}}
-          separators={{} as any}
-          item={{
-            id: 'undefined',
-            date_release: 'undefined',
-            date_revision: 'undefined',
-            description: 'undefined',
-            logo: 'undefined',
-            name: 'undefined',
-          }}
-        />
+        <RenderElement />
       </Animated.View>
     </Animated.View>
   );
@@ -67,6 +60,5 @@ const styles = StyleSheet.create({
     zIndex: 1000,
     borderRadius: 5,
   },
-
   skeletonDetails: {opacity: 0},
 });
