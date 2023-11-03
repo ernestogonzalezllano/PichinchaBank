@@ -18,6 +18,7 @@ export const useFormScreen = ({
 }: {
   product: Readonly<Product | undefined>;
 }) => {
+  const isEdit = !!product;
   const [formData, setFormData] = useState<FormGaps>(
     product ?? defaultFormData,
   );
@@ -36,7 +37,7 @@ export const useFormScreen = ({
   });
 
   useEffect(() => {
-    if (formData.id) {
+    if (formData.id && !isEdit) {
       validateIdRefetch();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -60,5 +61,6 @@ export const useFormScreen = ({
     handleSubmit,
     formData,
     defaultFormData,
+    isEdit,
   };
 };

@@ -24,6 +24,7 @@ export const FormScreen = ({
     formData,
     setErrors,
     defaultFormData,
+    isEdit,
   } = useFormScreen({product});
 
   return (
@@ -32,7 +33,7 @@ export const FormScreen = ({
         {(Object.keys(GAPS) as GapsNames[]).map(gap => (
           <Input
             key={gap}
-            {...gapsCreator(!!product)[gap]}
+            {...gapsCreator(isEdit)[gap]}
             errorLabel={errors[gap as keyof typeof errors]}
             value={formData[gap]}
             onChange={text => {
