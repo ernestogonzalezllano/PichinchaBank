@@ -13,3 +13,11 @@ export const GAPS: {
   date_release: {label: 'Fecha liberación'},
   date_revision: {label: 'Fecha revisión', disabled: true},
 };
+
+export const gapsCreator = (isEdit?: boolean) => {
+  const gaps = {...GAPS};
+  if (isEdit) {
+    gaps.id = {...gaps.id, disabled: true};
+  }
+  return gaps;
+};

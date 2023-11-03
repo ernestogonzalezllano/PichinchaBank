@@ -1,4 +1,4 @@
-export type ApiRoutes = '/bp/products';
+export type ApiRoutes = '/bp/products' | '/bp/products/verification';
 
 export type GapsNames =
   | 'id'

@@ -2,7 +2,7 @@ import {GAPS} from '../../constants';
 import {isActualDate, isValidDate, isValidUrl} from '../../utils/validators';
 import {FormGaps} from './types';
 
-export const validations = (formData: FormGaps) => {
+export const validations = (formData: FormGaps, validateId?: boolean) => {
   let errors = {};
 
   for (const key in formData) {
@@ -14,6 +14,9 @@ export const validations = (formData: FormGaps) => {
     const length = formData.id.length;
     if (length < 3 || length > 10) {
       errors = {...errors, id: 'Debe tener entre 3 y 10 caracteres'};
+    }
+    if (validateId) {
+      errors = {...errors, id: 'Id ya en uso'};
     }
   }
   if (formData.name) {

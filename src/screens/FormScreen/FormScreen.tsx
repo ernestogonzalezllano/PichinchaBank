@@ -5,7 +5,7 @@ import {Input} from '../../components/Input';
 import {ButtonTouchable} from '../../components/ButtonTouchable';
 import {isValidDateString} from '../../utils/validators';
 import {GapsNames} from '../../types/api';
-import {GAPS} from '../../constants';
+import {GAPS, gapsCreator} from '../../constants';
 import {FormScreenProps} from './types';
 import {Modal} from './components/Modal';
 import {useFormScreen} from './hooks/useFormScreen';
@@ -32,7 +32,7 @@ export const FormScreen = ({
         {(Object.keys(GAPS) as GapsNames[]).map(gap => (
           <Input
             key={gap}
-            {...GAPS[gap]}
+            {...gapsCreator(!!product)[gap]}
             errorLabel={errors[gap as keyof typeof errors]}
             value={formData[gap]}
             onChange={text => {
