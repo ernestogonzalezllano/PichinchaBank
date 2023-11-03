@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeScreen Should match with snapshot 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "gap": 5,
+    }
+  }
+>
+  <View>
+    <TextInput
+      editable={true}
+      onChangeText={[Function]}
+      placeholder="Buscar..."
+      style={
+        {
+          "borderColor": "#eaecf3",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "height": 40,
+          "padding": 10,
+        }
+      }
+    />
+  </View>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+        "gap": 5,
+      }
+    }
+    data={
+      [
+        {
+          "date_release": "2024-11-11",
+          "date_revision": "2025-11-11",
+          "description": "test react testing library",
+          "id": "12345",
+          "logo": "https://www.visa.com.ec/dam/VCOM/regional/lac/SPA/Default/Pay%20With%20Visa/Tarjetas/visa-signature-400x225.jpg",
+          "name": "test test",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "borderRadius": 5,
+              "borderWidth": 1,
+              "flexDirection": "row",
+              "opacity": 1,
+              "padding": 10,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "fontWeight": "bold",
+                }
+              }
+            >
+              test test
+            </Text>
+            <Text>
+              ID: 
+              12345
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "justifyContent": "center",
+                "width": 20,
+              }
+            }
+          >
+            <Image
+              source={
+                {
+                  "testUri": "../../../assets/right.png",
+                }
+              }
+              style={
+                {
+                  "height": 30,
+                  "position": "relative",
+                  "resizeMode": "contain",
+                  "width": "auto",
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#ffdd04",
+        "borderRadius": 5,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "backgroundColor": "#ffdd04",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      Agregar
+    </Text>
+  </View>
+</View>
+`;

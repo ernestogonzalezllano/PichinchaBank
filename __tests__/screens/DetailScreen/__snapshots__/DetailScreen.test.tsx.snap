@@ -1,0 +1,310 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailScreen Should match with snapshot 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <Text
+        style={
+          {
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        ID:
+        12345
+      </Text>
+      <Text>
+        Información extra
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "marginTop": 10,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={{}}
+        >
+          ID
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "fontWeight": "bold",
+              "textAlign": "right",
+            }
+          }
+        >
+          12345
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={{}}
+        >
+          Nombre
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "fontWeight": "bold",
+              "textAlign": "right",
+            }
+          }
+        >
+          test test
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={{}}
+        >
+          Descripción
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "fontWeight": "bold",
+              "textAlign": "right",
+            }
+          }
+        >
+          test react testing library
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Text>
+          Logo
+        </Text>
+        <Image
+          source={
+            {
+              "uri": "https://www.visa.com.ec/dam/VCOM/regional/lac/SPA/Default/Pay%20With%20Visa/Tarjetas/visa-signature-400x225.jpg",
+            }
+          }
+          style={
+            {
+              "height": 100,
+              "marginTop": 5,
+              "resizeMode": "center",
+              "width": "100%",
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={{}}
+        >
+          Fecha liberación
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "fontWeight": "bold",
+              "textAlign": "right",
+            }
+          }
+        >
+          2024-11-10
+        </Text>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "marginVertical": 10,
+          }
+        }
+      >
+        <Text
+          style={{}}
+        >
+          Fecha revisión
+        </Text>
+        <Text
+          style={
+            {
+              "flex": 1,
+              "fontWeight": "bold",
+              "textAlign": "right",
+            }
+          }
+        >
+          2025-11-10
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignSelf": "flex-end",
+        "gap": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#eaecf3",
+          "borderRadius": 5,
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "#eaecf3",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Editar
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#d50708",
+          "borderRadius": 5,
+          "color": "#fff",
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "#d50708",
+            "color": "#fff",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Eliminar
+      </Text>
+    </View>
+  </View>
+</View>
+`;

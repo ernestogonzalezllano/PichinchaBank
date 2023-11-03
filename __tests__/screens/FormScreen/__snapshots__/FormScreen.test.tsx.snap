@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormScreen Should match with snapshot 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <View>
+    <View>
+      <Text
+        style={
+          {
+            "fontWeight": "bold",
+            "marginVertical": 5,
+          }
+        }
+      >
+        ID
+      </Text>
+      <TextInput
+        editable={true}
+        onChangeText={[Function]}
+        style={
+          {
+            "borderColor": "#eaecf3",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 40,
+            "padding": 10,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "fontWeight": "bold",
+            "marginVertical": 5,
+          }
+        }
+      >
+        Nombre
+      </Text>
+      <TextInput
+        editable={true}
+        onChangeText={[Function]}
+        style={
+          {
+            "borderColor": "#eaecf3",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 40,
+            "padding": 10,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "fontWeight": "bold",
+            "marginVertical": 5,
+          }
+        }
+      >
+        Descripción
+      </Text>
+      <TextInput
+        editable={true}
+        onChangeText={[Function]}
+        style={
+          {
+            "borderColor": "#eaecf3",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 40,
+            "padding": 10,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "fontWeight": "bold",
+            "marginVertical": 5,
+          }
+        }
+      >
+        Logo
+      </Text>
+      <TextInput
+        editable={true}
+        onChangeText={[Function]}
+        style={
+          {
+            "borderColor": "#eaecf3",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 40,
+            "padding": 10,
+          }
+        }
+        value="https://www.visa.com.ec/dam/VCOM/regional/lac/SPA/Default/Pay%20With%20Visa/Tarjetas/visa-signature-400x225.jpg"
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "fontWeight": "bold",
+            "marginVertical": 5,
+          }
+        }
+      >
+        Fecha liberación
+      </Text>
+      <TextInput
+        editable={true}
+        onChangeText={[Function]}
+        style={
+          {
+            "borderColor": "#eaecf3",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 40,
+            "padding": 10,
+          }
+        }
+      />
+    </View>
+    <View>
+      <Text
+        style={
+          {
+            "fontWeight": "bold",
+            "marginVertical": 5,
+          }
+        }
+      >
+        Fecha revisión
+      </Text>
+      <TextInput
+        editable={false}
+        onChangeText={[Function]}
+        style={
+          {
+            "backgroundColor": "#eaecf3",
+            "borderColor": "#eaecf3",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "height": 40,
+            "padding": 10,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "gap": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#ffdd04",
+          "borderRadius": 5,
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "#ffdd04",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Enviar
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "backgroundColor": "#eaecf3",
+          "borderRadius": 5,
+          "opacity": 1,
+          "padding": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "backgroundColor": "#eaecf3",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Reiniciar
+      </Text>
+    </View>
+  </View>
+</View>
+`;
